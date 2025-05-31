@@ -9,6 +9,6 @@ class GreetingTest {
     void shouldGreeting(){
         Greeting greeting = new Greeting();
         String result = greeting.greeting();
-        assertEquals(result, "Hello MP-10 done");
+        assertEquals(result, "Hello");
     }
 }
